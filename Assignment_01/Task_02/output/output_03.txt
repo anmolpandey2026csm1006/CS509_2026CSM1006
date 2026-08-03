@@ -1,0 +1,6 @@
+Algorithm: GEMM Blocking
+Result matrix:
+25 30
+50 60
+75 90
+Execution time: 0.00193 ms
