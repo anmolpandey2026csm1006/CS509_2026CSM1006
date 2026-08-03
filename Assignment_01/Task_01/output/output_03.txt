@@ -1,0 +1,7 @@
+Algorithm: GEMM Simple
+Result matrix:
+91 88 46 46 97 
+95 75 108 91 85 
+61 68 46 33 62 
+118 83 102 102 115 
+Execution time: 0.001091 ms
