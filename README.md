@@ -80,13 +80,13 @@ Run the generated executable:
 For assignments that provide a common wrapper, compile it using:
 
 ```bash
-g++ common_wrapper.cpp -o wrapper
+g++ common_wrapper.cpp -o wrapper_app
 ```
 
 and execute
 
 ```bash
-./wrapper
+./wrapper_app
 ```
 
 ---
