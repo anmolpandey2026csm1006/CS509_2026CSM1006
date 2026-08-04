@@ -2,4 +2,4 @@ Algorithm: GEMM Simple
 Result matrix:
 58 64 
 139 154 
-Execution time: 0.000368 ms
+Execution time: 0.001247 ms
