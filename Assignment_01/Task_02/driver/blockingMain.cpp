@@ -39,8 +39,13 @@ int main(int argc, char* argv[]) {
         }
     }
 
+    int blockSize;
     // Set the block size (or tile size) for cache reuse
-    int blockSize = 2; 
+    if(K > 128 && M > 128 && N > 128)
+        blockSize = 64;
+    else
+        blockSize = 2; 
+
 
     // Start timing ONLY the algorithm execution[cite: 1]
     auto startTime = high_resolution_clock::now();

@@ -16,8 +16,9 @@ void executeTaskMenu(int taskNumber, const string& directoryPath) {
         cout << "2. Run Test Case 1\n";
         cout << "3. Run Test Case 2\n";
         cout << "4. Run Test Case 3\n";
-        cout << "5. Run ALL Test Cases\n";
-        cout << "6. Clean Compiled Files\n";
+        cout << "5. Run Test Case 4\n";
+        cout << "6. Run ALL Test Cases\n";
+        cout << "7. Clean Compiled Files\n";
         cout << "0. Return to Main Menu\n";
         cout << "Select an action: ";
         cin >> action;
@@ -39,9 +40,12 @@ void executeTaskMenu(int taskNumber, const string& directoryPath) {
                 system((baseCommand + " run3").c_str()); 
                 break;
             case 5: 
-                system((baseCommand + " run-all").c_str()); 
+                system((baseCommand + " run4").c_str()); 
                 break;
             case 6: 
+                system((baseCommand + " run-all").c_str()); 
+                break;
+            case 7: 
                 system((baseCommand + " clean").c_str()); 
                 break;
             case 0: 

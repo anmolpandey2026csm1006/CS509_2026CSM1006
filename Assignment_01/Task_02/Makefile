@@ -33,8 +33,13 @@ run3: $(TARGET)
 	./$(TARGET) $(TEST_DIR)/test_03.txt $(OUT_DIR)/output_03.txt
 	@echo "Test 3 finished! Check $(OUT_DIR)/output_03.txt for results."
 
+# Run Test 04
+run4: $(TARGET)
+	./$(TARGET) $(TEST_DIR)/test_250x250x250.txt $(OUT_DIR)/output_04.txt
+	@echo "Test 4 finished! Check $(OUT_DIR)/output_04.txt for results."
+
 # Run all tests sequentially
-run-all: run1 run2 run3
+run-all: run1 run2 run3 run4
 
 # Clean up compiled files
 clean:
