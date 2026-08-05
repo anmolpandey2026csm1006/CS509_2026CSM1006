@@ -116,7 +116,14 @@ The wrapper provides a menu-driven interface to:
 | test_02.txt (Blocking) | 4×4 and 4×4 | Result Matrix | Result Matrix | — | 0.001229 ms | 2 | ✅ Pass |
 | test_03.txt (Simple) | 4×4 and 4×5 | Result Matrix | Result Matrix | 0.001573 ms | — | — | ✅ Pass |
 | test_03.txt (Blocking) | 3×5 and 5×2 | Result Matrix | Result Matrix | — | 0.001930 ms | 2 | ✅ Pass |
+| test_03.txt (Blocking) | 3×5 and 5×2 | Result Matrix | Result Matrix | — | 0.001930 ms | 2 | ✅ Pass |
+| test_250x250x250.txt (Simple) | 250x250 and 250x250 | Result Matrix | Result Matrix | 45.7471 ms | — | — | ✅ Pass |
+| test_250x250x250.txt (Blocking) | 250x250 and 250x250 | Result Matrix | Result Matrix | — | 17.8189 ms | 64 | ✅ Pass |
+| test_1000x1000x1000.txt (Simple) | 1000x1000 and 1000x1000 | Result Matrix | Result Matrix | 1656.36 ms | — | — | ✅ Pass |
+| test_1000x1000x1000.txt (Blocking) | 1000x1000 and 1000x1000 | Result Matrix | Result Matrix | — | 935.576 ms | 64 | ✅ Pass |
 
+
+test_250x250x250.txt
 > **Note:** The input matrices for `test_02.txt` and `test_03.txt` differ between the Simple GEMM and Blocking GEMM implementations. Therefore, they are reported as separate entries.
 
 ---
