@@ -133,6 +133,9 @@ The wrapper provides a menu-driven interface to:
 |-----------|-------------------|-----------------|---------------|----------------:|:------:|
 | test_01.txt | Graph (V = 5, E = 5) | CSR Representation | CSR Representation | 0.001062 ms | ✅ Pass |
 | test_02.txt | Graph (V = 4, E = 4) | CSR Representation | CSR Representation | 0.001941 ms | ✅ Pass |
+| test_500.txt | Graph (V = 500, E = 499) | CSR Representation | CSR Representation | 0.005 ms | ✅ Pass |
+| test_1000.txt | Graph (V = 1000, E = 999) | CSR Representation | CSR Representation | 0.014 ms | ✅ Pass |
+
 
 ---
 
