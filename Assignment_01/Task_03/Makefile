@@ -28,8 +28,18 @@ run2: $(TARGET)
 	./$(TARGET) $(TEST_DIR)/test_02.txt $(OUT_DIR)/output_02.txt
 	@echo "Test 2 finished! Check $(OUT_DIR)/output_02.txt for results."
 
+# Run Test 03
+run3: $(TARGET)
+	./$(TARGET) $(TEST_DIR)/test_500.txt $(OUT_DIR)/output_03.txt
+	@echo "Test 3 finished! Check $(OUT_DIR)/output_03.txt for results."
+
+# Run Test 04
+run4: $(TARGET)
+	./$(TARGET) $(TEST_DIR)/test_1000.txt $(OUT_DIR)/output_04.txt
+	@echo "Test 4 finished! Check $(OUT_DIR)/output_04.txt for results."
+
 # Run all tests
-run-all: run1 run2
+run-all: run1 run2 run3 run4
 
 # Clean
 clean:

@@ -3,4 +3,4 @@ row_ptr: 0 2 4 7 9 10
 col_idx: 1 2 0 3 0 3 4 1 2 2 
 values:  1 1 1 1 1 1 1 1 1 1 
 
-CSR Conversion Time: 0.001062 ms
+CSR Conversion Time: 0.003018 ms

@@ -17,9 +17,9 @@ void executeTaskMenu(int taskNumber, const string& directoryPath) {
         cout << "3. Run Test Case 2\n";
         cout << "4. Run Test Case 3\n";
         cout << "5. Run Test Case 4\n";
-        cout << "5. Run Test Case 5\n";
-        cout << "6. Run ALL Test Cases\n";
-        cout << "7. Clean Compiled Files\n";
+        cout << "6. Run Test Case 5\n";
+        cout << "7. Run ALL Test Cases\n";
+        cout << "8. Clean Compiled Files\n";
         cout << "0. Return to Main Menu\n";
         cout << "Select an action: ";
         cin >> action;
