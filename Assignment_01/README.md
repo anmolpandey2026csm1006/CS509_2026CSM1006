@@ -123,7 +123,6 @@ The wrapper provides a menu-driven interface to:
 | test_1000x1000x1000.txt (Blocking) | 1000x1000 and 1000x1000 | Result Matrix | Result Matrix | — | 935.576 ms | 64 | ✅ Pass |
 
 
-test_250x250x250.txt
 > **Note:** The input matrices for `test_02.txt` and `test_03.txt` differ between the Simple GEMM and Blocking GEMM implementations. Therefore, they are reported as separate entries.
 
 ---
