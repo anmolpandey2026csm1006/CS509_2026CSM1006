@@ -11,6 +11,9 @@ The repository serves as a centralized collection of all programming assignments
 ```
 CS509_2026CSM1006
 │
+├── master_wrapper/          # Unified Master Project Manager
+│   └── master_wrapper.cpp
+│ 
 ├── Assignment_01
 │   ├── Task_01
 │   ├── Task_02
@@ -44,7 +47,7 @@ A typical task follows the structure:
 ```
 Task_xx/
 │
-├── driver/        # Driver program
+├── driver/        # Driver program (main application)
 ├── source/        # Source and header files
 ├── test/          # Input test cases
 ├── output/        # Generated outputs
@@ -55,39 +58,51 @@ This modular organization keeps each implementation self-contained and easy to b
 
 ---
 
-# Build Instructions
+## Build & Execution Instructions
 
-Navigate to the desired task directory.
+### 1. Using the Master Project Manager (Recommended)
 
-Example:
+The most efficient way to navigate, compile, and test the assignments is by using the centralized **Master Wrapper**.
+
+Run the following commands from the **root directory** of the repository:
+
+#### Compile the Master Manager
 
 ```bash
-cd Assignment_01/Task_01
+g++ master_wrapper/master_wrapper.cpp -o master_app
 ```
 
-Compile using the provided Makefile:
-
+Run the Manager
 ```bash
-make
+./master_app
 ```
 
-Run the generated executable:
+This will launch a unified, menu-driven CLI that dynamically routes you to the specific sub-wrappers for each assignment.
 
+### 2. Running Individual Assignment Wrappers
+
+If you want to focus solely on a specific assignment, navigate to its folder and run its local wrapper.
+
+For example, for Assignment 01:
 ```bash
-./main
-```
-
-For assignments that provide a common wrapper, compile it using:
-
-```bash
+cd Assignment_01
 g++ common_wrapper.cpp -o wrapper_app
-```
-
-and execute
-
-```bash
 ./wrapper_app
 ```
+
+Replace Assignment_01 with the appropriate assignment directory when needed.
+
+### 3. Manual Task Execution
+
+To manually compile and run a specific algorithm without using the wrapper interface, navigate to the exact task directory and utilize the provided Makefile.
+
+For example:
+```bash
+cd Assignment_01/Task_01
+make run-all
+```
+
+This allows you to directly build and execute all configured targets for the selected task.
 
 ---
 
@@ -104,9 +119,9 @@ and execute
 
 The assignments in this repository cover various topics in computer science and high-performance computing, including but not limited to:
 
-- Matrix Computations
-- Graph Algorithms
-- Sparse Data Structures
+- Matrix Computations (Simple & Blocked GEMM)
+- Graph Algorithms (Bellman-Ford, Floyd-Warshall)
+- Sparse Data Structures (CSR Representation)
 - Parallel Programming
 - Performance Optimization
 - Memory-efficient Algorithms
