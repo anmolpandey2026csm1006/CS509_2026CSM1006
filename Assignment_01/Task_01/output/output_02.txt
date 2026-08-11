@@ -3,4 +3,4 @@ Result matrix:
 21 27 20 
 31 41 21 
 20 24 12 
-Execution time: 0.001214 ms
+Execution time: 0.001103 ms

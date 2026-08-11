@@ -3,4 +3,4 @@ Result matrix:
 25 30
 50 60
 75 90
-Execution time: 0.001744 ms
+Execution time: 0.002239 ms

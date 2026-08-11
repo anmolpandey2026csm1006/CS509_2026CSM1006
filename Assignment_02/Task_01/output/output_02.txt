@@ -102,4 +102,4 @@ Vertex Distance
 98 -5
 99 3
 Negative cycle: none
-Execution time: 0.012407 ms
+Execution time: 0.006871 ms

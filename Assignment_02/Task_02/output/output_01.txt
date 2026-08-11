@@ -11,4 +11,4 @@ INF INF INF INF INF INF INF 0 INF -3
 INF INF INF INF INF INF INF INF 0 5
 INF INF INF INF INF INF INF INF INF 0
 Negative cycle: none
-Execution time: 0.010218 ms
+Execution time: 0.017833 ms

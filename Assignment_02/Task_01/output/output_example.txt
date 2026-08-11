@@ -7,4 +7,4 @@ Vertex Distance
 3 7
 4 -2
 Negative cycle: none
-Execution time: 0.002196 ms
+Execution time: 0.00086 ms

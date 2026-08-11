@@ -50002,4 +50002,4 @@ Vertex Distance
 49998 -44
 49999 -45
 Negative cycle: none
-Execution time: 5.54077 ms
+Execution time: 3.59078 ms
