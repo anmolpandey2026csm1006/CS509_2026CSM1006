@@ -29,6 +29,7 @@ int main() {
         cout << "=================================================\n";
         cout << "1. Open Assignment 01 (Simple/Blocked GEMM, CSR)\n";
         cout << "2. Open Assignment 02 (Bellman-Ford, Floyd-Warshall)\n";
+        cout << "3. Open Assignment 03 (MST: Kruskal & Prim)\n";
         cout << "0. Exit Master System\n";
         cout << "\nEnter your choice: ";
         cin >> mainOpt;
@@ -39,6 +40,9 @@ int main() {
                 break;
             case 2:
                 launchAssignment("Assignment_02");
+                break;
+            case 3:
+                launchAssignment("Assignment_03");
                 break;
             case 0:
                 cout << "\nShutting down master environment. Goodbye!\n";
