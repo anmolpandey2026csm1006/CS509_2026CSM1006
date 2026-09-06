@@ -34,6 +34,13 @@ CS509_2026CSM1006
 │   ├── common_wrapper.cpp
 │   └── README.md
 │
+├── Assignment_04
+│   ├── Task_01
+│   ├── Task_02
+│   ├── tools/
+│   ├── common_wrapper.cpp
+│   └── README.md
+│
 ├── ...
 │
 └── README.md
@@ -127,6 +134,8 @@ The assignments in this repository cover various topics in computer science and 
 - Matrix Computations (Simple & Blocked GEMM)
 - Graph Algorithms (Bellman-Ford, Floyd-Warshall)
 - Minimum Spanning Trees (Kruskal's & Prim's Algorithms)
+- Graph Coloring (Vertex Coloring, Welsh-Powell)
+- Link Analysis (PageRank)
 - Sparse Data Structures (CSR Representation)
 - Parallel Programming
 - Performance Optimization
