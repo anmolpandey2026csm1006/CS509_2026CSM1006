@@ -1,0 +1,17 @@
+Algorithm: PageRank
+Damping: 0.85
+Vertex ranks:
+0 0.059414
+1 0.040249
+2 0.164550
+3 0.196517
+4 0.182064
+5 0.137479
+6 0.053946
+7 0.037931
+8 0.070067
+9 0.057785
+Sum of ranks: 1.000000
+Iterations: 19
+Converged: true
+Execution time: 0.005502 ms
